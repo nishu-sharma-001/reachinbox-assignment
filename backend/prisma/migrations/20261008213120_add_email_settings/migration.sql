@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Email" ADD COLUMN     "delaySeconds" INTEGER NOT NULL DEFAULT 2,
+ADD COLUMN     "hourlyLimit" INTEGER NOT NULL DEFAULT 100;
